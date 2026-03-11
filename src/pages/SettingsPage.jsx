@@ -145,7 +145,7 @@ export default function SettingsPage() {
 
 
 
-            <div onClick={()=> window.open(link , "_blank")} className="py-4 border-b-[0.5px] dark:border-gray-700 ">
+            <div onClick={() => window.open(link, "_blank")} className="py-4 border-b-[0.5px] dark:border-gray-700 ">
               <h1 className="text-md font-bold">Rejoindre notre communauté WhatsApp</h1>
               <p className="text-gray-400">suivez nous sur WhatsApp pour bénéficier d'autres surprises.</p>
             </div>

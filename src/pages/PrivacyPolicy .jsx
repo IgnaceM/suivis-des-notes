@@ -1,4 +1,4 @@
-import { ArrowLeft, MoveLeft } from "lucide-react";
+import { MoveLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const PrivacyPolicy = () => {
@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     <div className="pt-20 pb-10 bg-white min-h-full">
       <div className="fixed top-0 left-0 right-0 flex items-center gap-5 p-5 bg-black text-white">
 
-        <MoveLeft onClick={()=> navigate(-1)} />
+        <MoveLeft onClick={() => navigate(-1)} />
 
         <h2 className="text-[15px] font-bold text-center">Politique de confidentialité</h2>
       </div>
