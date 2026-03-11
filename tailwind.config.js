@@ -22,6 +22,7 @@ module.exports = {
       
         
       },
+
       height : {
         '320px' : '320px',
       },
@@ -41,9 +42,30 @@ module.exports = {
         '650px': '650px',
         '850px': '850px',
       },
+
+      animation: {
+        fadeIn: "fadeIn 0.8s ease-in-out",
+        clignote : "Easy 2s linear infinite",
+        "spin-slow" : "spin 3s linear infinite",
+        "ping-slow" : "ping 1.5s linear infinite",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        },
+
+        clignote : {
+          "0%" : {scale:1},
+          "100%" : {scale:1.5},
+        }
+      }
+
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
 }
+
+
 
 

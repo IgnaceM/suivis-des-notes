@@ -1,4 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
 
+* {
+	font-family: "Bahnschrift Light";
+} */
+
+.animeBorder {
+	animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+	0% {
+    border: .51px dashed red;
+		color: red;
+	}
+
+	25% {
+    border: 1.5px dashed orange;
+		color: orange;
+	}
+
+  50% {
+    border: 1.5px dashed yellow;
+    color: yellow;
+  }
+
+  75% {
+    border: 1.5px dashed green;
+    color: green;
+  }
+
+  85% {
+    border: 1.5px dashed greenyellow;
+    color: greenyellow;
+  }
+
+
+	100% {
+    border: 1.5px dashed red;
+		color: red;
+	}
+}
+
+.recharts-wrapper svg:focus, recharts-wrapper div:focus , recharts-wrapper g:focus {
+  outline: none !important;
+  background: none;
+  box-shadow: none;
+}
