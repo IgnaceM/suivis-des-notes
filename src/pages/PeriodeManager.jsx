@@ -18,6 +18,7 @@ export default function PeriodeManager() {
   } = useCourses();
 
   const navigate = useNavigate();
+  const activePeriode = periodes.find((periode) => periode.id === periodeActive);
 
   const [deleteModal, setDeleteModal] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
@@ -46,7 +47,7 @@ export default function PeriodeManager() {
           <Calendar size={20} />
           Période active :{" "}
           <span className="text-sky-500 dark:text-sky-500">
-            {periodes.find((p) => p.id === periodeActive)?.nom}
+            {activePeriode ? activePeriode.nom : "—"}
           </span>
         </h2>
 

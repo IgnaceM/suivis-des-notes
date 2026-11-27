@@ -153,7 +153,7 @@ export default function SettingsPage() {
         </section>
 
 
-        <section className="bg-white p-6 rounded-md shadow space-y-4 dark:bg-zinc-700 dark:bg-opacity-20 dark:text-gray-300">
+        {/* <section className="bg-white p-6 rounded-md shadow space-y-4 dark:bg-zinc-700 dark:bg-opacity-20 dark:text-gray-300">
           <div>
             <h2 className="text-xs font-semibold flex items-center gap-2 text-sky-500 "><Info /> sur</h2>
           </div>
@@ -169,7 +169,7 @@ export default function SettingsPage() {
           <div className="py-4 border-b-[0.5px] dark:border-gray-700 ">
             <h1 className="text-md font-bold">Version : 1.0.0</h1>
           </div>
-        </section>
+        </section> */}
       </main>
     </>
   );

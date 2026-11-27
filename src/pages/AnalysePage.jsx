@@ -136,7 +136,7 @@ export default function AnalysePage() {
               <h3 className="font-semibold text-[16px] dark:text-white uppercase">{c.name}</h3>
               <p className="text-black dark:text-white">Moyenne : <span className="font-bold text-gray-500">{c.moyenne.toFixed(1)}%</span></p>
 
-              <p className="font-bold dark:text-white">Histogramme des notes</p>
+              <p className="font-bold dark:text-white">Tendances</p>
               <TrendChart grades={c.grades} />
               <p className="font-bold dark:text-gray-300">Progression</p>
               <ProgressLine grades={c.grades} />

@@ -17,6 +17,7 @@ import { Faq } from "./pages/Faq";
 import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy ";
 import { Mentions } from "./pages/Mentions";
+import PwaInstallPrompt from "./composants/PwaInstallPrompt";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
   })
 	return (
     <Router>
+      <PwaInstallPrompt />
       <div className="flex w-full font-medium mt-0 flex-col h-full dark:bg-zinc-800 ">
         <div className="">
           <Routes>

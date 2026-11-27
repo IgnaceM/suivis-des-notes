@@ -1,33 +1,26 @@
 {
-	"short_name": "Suivis des notes",
-	"name": "Suivis des notes App",
+	"id": "./",
+	"name": "Suivis des notes",
+	"short_name": "Notes",
+	"description": "Suivez vos cours, vos notes et votre progression scolaire.",
+	"lang": "fr",
+	"start_url": "./",
+	"scope": "./",
+	"display": "standalone",
+	"theme_color": "#0ea5e9",
+	"background_color": "#f8fafc",
 	"icons": [
 		{
-			"src": "Logo.png",
-			"sizes": "64x64 32x32 24x24 16x16",
-			"type": "image/x-icon"
+			"src": "./pwa-icon-192.svg",
+			"sizes": "192x192",
+			"type": "image/svg+xml",
+			"purpose": "any"
 		},
 		{
-			"src": "Logo.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "Logo.png",
-			"type": "image/png",
-			"sizes": "512x512"
-		}
-	],
-	"start_url": "/",
-	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff",
-	"shortcuts": [
-		{
-			"name": "The name you would like to be displayed for your shortcut",
-			"url": "The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-			"description": "A description of the functionality of this shortcut",
-			"icons": [{ "src": "icon-96x96.png", "type": "image/png", "sizes": "96x96" }]
+			"src": "./pwa-icon-512.svg",
+			"sizes": "512x512",
+			"type": "image/svg+xml",
+			"purpose": "any"
 		}
 	]
 }
